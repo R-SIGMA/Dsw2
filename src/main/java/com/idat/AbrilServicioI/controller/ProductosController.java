@@ -69,7 +69,6 @@ public class ProductosController {
 			servicio.eliminarProducto(id);
 			return new ResponseEntity<Void>(HttpStatus.OK);
 		}
-		
 		return new ResponseEntity<Void>(HttpStatus.NOT_FOUND);
 	}
 }
